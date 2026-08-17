@@ -1,14 +1,9 @@
 # Sales Performance Dashboard
 
-**Kinetrexa Data Analytics Internship Task 1**  
-**Author**: Pooja R  
-
----
-
 ## 📌 Project Overview
-The **Sales Performance Dashboard** is an enterprise-grade commercial analytics solution built for **Kinetrexa**. This project provides interactive visualization, statistical exploratory analysis, and commercial insights derived from an actual B2B sales dataset spanning orders from January 2003 through May 2005.
+The Sales Performance Dashboard is an independent student project focused on commercial sales analytics. The project provides interactive visualization, statistical exploratory analysis, and business insights derived from a B2B sales transaction dataset spanning orders from January 2003 through May 2005.
 
-The solution equips commercial leaders, sales managers, and executive decision-makers with interactive dashboards (Streamlit & Power BI), an automated ETL pipeline, an exploratory Jupyter Notebook, and a executive PDF insights report.
+The solution equips commercial leaders, sales managers, and executive decision-makers with interactive dashboards (Streamlit & Power BI), an automated ETL pipeline, an exploratory Jupyter Notebook, and an executive PDF insights report.
 
 ---
 
@@ -208,4 +203,4 @@ jupyter notebook notebooks/Sales_Performance_Analysis.ipynb
 ---
 
 **Author**: Pooja R  
-**Kinetrexa Data Analytics Internship Task 1**
+**Information Science Student**

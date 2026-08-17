@@ -250,4 +250,4 @@ Never describe these metrics as Actual Profit, Actual Profit Margin, or Net Prof
 - [x] Profit methodology explicitly explained with 60% MSRP estimated-cost baseline.
 - [x] Strict **Estimated Profit** and **Estimated Profit Margin** terminology enforced throughout.
 - [x] Dark blue theme colors and contrast readability rules documented.
-- [x] Zero company or internship references included.
+- [x] Zero company or external organization references included.
