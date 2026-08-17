@@ -202,5 +202,17 @@ jupyter notebook notebooks/Sales_Performance_Analysis.ipynb
 
 ---
 
+## 🚀 Live Dashboard
+
+[**View Live Sales Performance Dashboard →**](https://sales-performance-dashboard-lcazmlie2xakjylbfqsnvy.streamlit.app/)
+
+## 📊 Dashboard Preview
+
+![Sales Performance Dashboard](./dashboard/powerbi_dashboard.png)
+
+## 🎬 Dashboard Demo
+
+![Sales Performance Dashboard Demo](./dashboard/powerbi_dashboard.gif)
+
 **Author**: Pooja R  
 **Information Science Student**
