@@ -17,7 +17,13 @@ import os
 
 
 def load_raw_data(file_path: str = "data/sales_data_sample.csv") -> pd.DataFrame:
-    """Load the raw sales dataset with fallback encoding handling."""
+    """Load the raw sales dataset with fallback encoding handling and deployment-safe path resolution."""
+    if not os.path.isabs(file_path):
+        base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+        possible_path = os.path.join(base_dir, file_path)
+        if os.path.exists(possible_path):
+            file_path = possible_path
+
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"Raw data file not found at path: {file_path}")
     

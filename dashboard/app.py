@@ -306,9 +306,11 @@ st.markdown("""
 
 @st.cache_data
 def get_data():
-    """Load and clean dataset with caching."""
-    if os.path.exists("data/cleaned_sales_data.csv"):
-        df = pd.read_csv("data/cleaned_sales_data.csv", keep_default_na=False)
+    """Load and clean dataset with caching using deployment-safe relative path resolution."""
+    base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    clean_path = os.path.join(base_dir, "data", "cleaned_sales_data.csv")
+    if os.path.exists(clean_path):
+        df = pd.read_csv(clean_path, keep_default_na=False)
         df['ORDERDATE'] = pd.to_datetime(df['ORDERDATE'])
         df['Region'] = df['Region'].replace('', 'NA')
         df['TERRITORY'] = df['TERRITORY'].replace('', 'NA')
