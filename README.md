@@ -215,10 +215,6 @@ jupyter notebook notebooks/Sales_Performance_Analysis.ipynb
 
 - **Dashboard Demo GIF:** `dashboard/powerbi_dashboard.gif`
 
-## 🎥 Project Demo
-
-▶️ [Watch Sales Performance Analysis Demo](https://youtu.be/BEe1QGuG1cw)
-
 ---
 
 
