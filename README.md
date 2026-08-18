@@ -207,10 +207,17 @@ jupyter notebook notebooks/Sales_Performance_Analysis.ipynb
 
 [**View Live Sales Performance Dashboard →**](https://sales-performance-dashboard-lcazmlie2xakjylbfqsnvy.streamlit.app/)
 
-## 📊 Dashboard Resources
+## 🔗 Project Links
+
+- **GitHub Repository:** [Sales-Performance-Dashboard](https://github.com/PoojaRaghu-07/Sales-Performance-Dashboard)
 
 - **Power BI Dashboard Screenshot:** `dashboard/powerbi_dashboard.png`
-- **Dashboard Demo GIF:** `dashboard/powerbi_dashboard.gif`git add README.md
+
+- **Dashboard Demo GIF:** `dashboard/powerbi_dashboard.gif`
+
+## 🎥 Project Demo
+
+▶️ [Watch Sales Performance Analysis Demo](https://youtu.be/BEe1QGuG1cw)
 
 ---
 
